@@ -1,4 +1,5 @@
 package org.alvarocalderon.system;
+import org.alvarocalderon.model.Gato;
 import org.alvarocalderon.model.Perro;
 /**
  *
@@ -14,5 +15,11 @@ public class Principal {
         System.out.println("El nombre del perro: " + perro1.getNombre());
         
         perro1.traerPelota();
+        
+        System.out.println("----------------GATO-----------------");
+        //dato del gato
+        Gato gato1 = new Gato();
+        gato1.setNombre("Minino");
+        gato1.arrañazo();
     }
 }
