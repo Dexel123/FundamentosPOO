@@ -9,6 +9,7 @@ import org.angelmolina.model.Pato;
 import org.angelmolina.model.Perro;
 import org.angelmolina.model.Vaca;
 import org.angelmolina.model.Caballo;
+import org.angelmolina.model.Pollo;
 
 
 /**
@@ -101,10 +102,19 @@ public class Principal {
            System.out.println("");
         
            System.out.println("----------------CABALLO-----------------");
-        //dato del loro
+        //dato del caballo
         Caballo caballo1 = new Caballo();
         caballo1.setNombre("Pedro");
         caballo1.galopar();
+        
+        
+        System.out.println("");
+        
+           System.out.println("----------------POLLO-----------------");
+        //dato del pollo
+        Pollo pollo1 = new Pollo();
+        pollo1.setNombre("Bartolito");
+        pollo1.piar();
         
     }
 }
