@@ -1,5 +1,5 @@
 
-package org.alvarocalderon.model;
+package org.angelmolina.model;
 
 public class Gato extends Animal {
     private double largoGarras;
