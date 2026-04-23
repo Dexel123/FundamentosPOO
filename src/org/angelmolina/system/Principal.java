@@ -1,7 +1,9 @@
 package org.angelmolina.system;
+import org.angelmolina.model.Burro;
 import org.angelmolina.model.Gallo;
 import org.angelmolina.model.Gato;
 import org.angelmolina.model.Perro;
+
 
 /**
  *
@@ -35,5 +37,14 @@ public class Principal {
         Gallo gallo1 = new Gallo();
         gallo1.setNombre("Claudio");
         gallo1.cacareo();
+        
+        System.out.println("");
+        
+        
+        System.out.println("----------------BURRO-----------------");
+        //dato del gallo
+        Burro burro1 = new Burro();
+        burro1.setNombre("Eugenio");
+        burro1.patada();
     }
 }
