@@ -1,6 +1,7 @@
 package org.alvarocalderon.system;
 import org.alvarocalderon.model.Gato;
 import org.alvarocalderon.model.Perro;
+import org.alvarocalderon.model.Gallo;
 /**
  *
  * @author Alvaro Calderon
@@ -16,10 +17,22 @@ public class Principal {
         
         perro1.traerPelota();
         
+        System.out.println("");
+        
         System.out.println("----------------GATO-----------------");
         //dato del gato
         Gato gato1 = new Gato();
         gato1.setNombre("Minino");
         gato1.arrañazo();
+        
+        
+        System.out.println("");
+        
+        
+        System.out.println("----------------GALLO-----------------");
+        //dato del gallo
+        Gallo gallo1 = new Gallo();
+        gallo1.setNombre("Claudio");
+        gallo1.cacareo();
     }
 }
