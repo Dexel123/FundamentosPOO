@@ -3,6 +3,7 @@ import org.angelmolina.model.Burro;
 import org.angelmolina.model.Gallo;
 import org.angelmolina.model.Gato;
 import org.angelmolina.model.Perro;
+import org.angelmolina.model.Vaca;
 
 
 /**
@@ -42,9 +43,18 @@ public class Principal {
         
         
         System.out.println("----------------BURRO-----------------");
-        //dato del gallo
+        //dato del burro
         Burro burro1 = new Burro();
         burro1.setNombre("Eugenio");
         burro1.patada();
+        
+        System.out.println("");
+        
+        
+        System.out.println("----------------VACA-----------------");
+        //dato de la vaca
+        Vaca vaca1 = new Vaca();
+        vaca1.setNombre("Lola");
+        vaca1.mugido();
     }
 }
