@@ -1,6 +1,7 @@
 package org.angelmolina.system;
 import org.angelmolina.model.Burro;
 import org.angelmolina.model.Cerdo;
+import org.angelmolina.model.Conejo;
 import org.angelmolina.model.Gallo;
 import org.angelmolina.model.Gato;
 import org.angelmolina.model.Perro;
@@ -61,10 +62,19 @@ public class Principal {
         System.out.println("");
         
         
-        System.out.println("----------------VACA-----------------");
+        System.out.println("----------------CERDO-----------------");
         //dato del cerdo
         Cerdo cerdo1 = new Cerdo();
         cerdo1.setNombre("Beacon");
         cerdo1.revolcarse();
+        
+        
+        System.out.println("");
+        
+        System.out.println("----------------CONEJO-----------------");
+        //dato del conejo
+        Conejo conejo1 = new Conejo();
+        conejo1.setNombre("Bugs");
+        conejo1.salto();
     }
 }
