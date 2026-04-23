@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 build/
 build.xml
 manifest.mf
 test/
 /dist/
+=======
+build.xml
+build/
+manifest.mf
+test/
+
+>>>>>>> 543a356c61b7990de2a216d0140d8997644b2a57
