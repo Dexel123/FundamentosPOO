@@ -4,6 +4,7 @@ import org.angelmolina.model.Cerdo;
 import org.angelmolina.model.Conejo;
 import org.angelmolina.model.Gallo;
 import org.angelmolina.model.Gato;
+import org.angelmolina.model.Pato;
 import org.angelmolina.model.Perro;
 import org.angelmolina.model.Vaca;
 
@@ -76,5 +77,14 @@ public class Principal {
         Conejo conejo1 = new Conejo();
         conejo1.setNombre("Bugs");
         conejo1.salto();
+        
+         System.out.println("");
+        
+        System.out.println("----------------PATO-----------------");
+        //dato del pato
+        Pato pato1 = new Pato();
+        pato1.setNombre("Lucas");
+        pato1.nado();
+        
     }
 }
